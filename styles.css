@@ -1,0 +1,68 @@
+body{
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="button"]{
+    background-color: rgb(255, 128, 10);
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type="checkbox"], .message{
+    display: inline;
+    font-size: small;
+}
+
+a{
+    color: rgb(255, 128, 10);
+}
+
+th{
+    text-align: left;
+}
+
+*{
+    margin: 0;
+}
+
+.form{
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    border: 1px solid grey;
+    font-size: 13px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+input[type=text]:focus, input[type="email"]:focus, input[type="password"]:focus{
+    border: 3px solid rgb(255, 128, 10);
+    box-shadow: 0 0 5px 0 rgb(255, 128, 10);
+}
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.842);
+    
+}
+
+.subtitle{
+    color: rgba(128, 128, 128, 0.815);
+}
+
+
+.space{
+    margin-bottom: 20px;
+}
+
